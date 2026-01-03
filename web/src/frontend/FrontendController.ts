@@ -1,6 +1,7 @@
 import type { IFrontendInfo } from './IFrontend';
 import { Info as InfoClassic } from './classic/FrontendInfo';
 import { Info as InfoFluentCore } from './fluent-core/FrontendInfo';
+import {Info as InfoSingleMedia} from './single-media/FrontendInfo'
 import type { Choice, ISettings } from '../engine/SettingsManager';
 import { Key } from '../engine/SettingsGlobal';
 import { ReloadAppWindow, type IAppWindow } from '../engine/platform/AppWindow';
@@ -9,6 +10,7 @@ import { Observable, type IObservable } from '../engine/Observable';
 export const FrontendList: IFrontendInfo[] = [
     InfoClassic,
     InfoFluentCore,
+    InfoSingleMedia
 ];
 
 export class FrontendController {

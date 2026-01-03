@@ -151,6 +151,11 @@ const translations: VariantResource = {
   Frontend_FluentCore_SearchBox_CaseSenstiveToggleButton_Description: 'Toggle between case sensitive and insensitive mode',
   Frontend_FluentCore_SearchBox_CaseRegularExpressionToggleButton_Description: 'Toggle between text and regular expression mode',
 
+
+  // [SECTION]: Frontend: SingleMedia
+  Frontend_SingleMedia_Label: "Single Media",
+  Frontend_SingleMedia_Description: "Simple single media only via URL, no need to scrap entire website for single manga",
+
   // [SECTION]: Engine
 
   Settings_Global_Frontend: 'Frontend',

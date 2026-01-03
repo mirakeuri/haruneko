@@ -242,6 +242,12 @@ export enum FrontendResourceKey {
     Frontend_FluentCore_SearchBox_CaseRegularExpressionToggleButton_Description = 'Frontend_FluentCore_SearchBox_CaseRegularExpressionToggleButton_Description',
 }
 
+// [SECTION]: Frontend: SingleMedia
+export enum FrontendResourceKey {
+    Frontend_SingleMedia_Label = 'Frontend_SingleMedia_Label',
+    Frontend_SingleMedia_Description = 'Frontend_SingleMedia_Description'
+}
+
 // [SECTION]: Engine
 export enum EngineResourceKey {
     Settings_Global_Frontend = 'Settings_Global_Frontend',
